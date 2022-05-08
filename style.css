@@ -1,0 +1,251 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+#maxdiv{
+    width: 70%;
+    height: 100%;
+    background-color: white;
+}
+#mindiv{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(107 218 171);
+}
+#nav{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding-top: 13px;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+}
+#navleft{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        height: 100%;
+    }
+#navleft i{
+    font-size: 23px;
+    color: rgb(107 218 171);
+}
+#navleft h1 {
+    color: black;
+}
+#navleft span{
+    color: rgb(107 218 171);
+}
+#navright{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 20px;
+    width: 30%;
+    height: 100%;
+}
+#navright button{
+    padding: 8px 18px;
+    border: none;
+    color: rgb(107 218 171);
+    background-color: white;
+    border-radius: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+#navright button:hover{
+    background-color: black;
+}
+#search{
+    width: 60px;
+    display: flex;
+    color:rgb(68, 64, 64);
+    justify-content: space-between;
+    cursor: pointer;
+}
+#search h4:hover{
+    color: grey;
+}
+#search i:hover{
+    color: grey;
+}
+#navcenter{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+#navcenter a{
+    text-decoration: none;
+    color: black;
+}
+#navcenter a:hover{
+    color: grey;
+}
+#main img{
+    position: absolute;
+    height: 80%;
+    top: 51%;
+    right: 0%;
+    transform: translate(0%, -50%);
+}
+#grey{
+    position: absolute;
+    width: 53%;
+    height: 30%;
+    bottom: 0%;
+    padding: 10px;
+    background-color: rgba(202, 196, 196, 0.486);
+}
+#grey h6{
+    position: absolute;
+    font-family: monospace;
+    font-size: 10px;
+    bottom: 3%;
+    color: #6b6868;
+    font-weight: 100;
+
+}
+#grey h5{
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
+    font-size: 10px;
+    bottom: 10%;
+    right: 0%;
+    transform: rotate(270deg);
+    color: #6b6868;
+}
+#grey #line{
+        position: absolute;
+        width: 1px;
+        height: 42px;
+        bottom: 26%;
+        right:2%;
+        background-color: #6b6868;
+}
+
+#cntn{
+    position: absolute;
+    top: 27%;
+    left: 6.5%;
+    width: 40%;
+    height: 50%;
+    /* background-color: yellow; */
+}
+
+#cntn h1{
+    padding-top: 10px;
+    /* font-family: "Bebas Neue"; */
+    font-size: 70px;
+    font-family: 'Dongle', sans-serif;
+    line-height: 45px;
+}
+#cntn h4{
+    font-family: "Bebas Neue";
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: rgb(107 218 171);
+}
+#cntn p{
+    color: grey;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 14px;
+
+}
+#dbtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 140px;
+    height: 35px;
+    background-color: rgb(107 218 171);
+
+}
+#dbtn button{
+    padding:10px 20px;
+    border: none;
+    background-color: rgb(107 218 171);
+    color: white;
+}
+#dbtn:hover, button:hover{
+    background-color: black;
+
+}
+#dbtn  button:hover{
+    background-color: black;
+
+}
+
+
+
+#dbtn i{
+    font-size: 20px;
+    padding: 3px;
+    color: white;
+
+}
+#rbtm{
+    position: absolute;
+    display: flex;
+    width: 47.08%;
+    height: 49.5px;
+    background-color: black;
+    right: 0%;
+    bottom: 0%;
+}
+#rbtmleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+}
+#rbtmright{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 40px;
+    color: rgb(65, 60, 60);
+    width:66%;
+    height: 100%;
+    background-color: rgb(107 218 171);
+}
+#rbtmright i {
+    font-size: 23px;
+}
+#rbtmright i:hover{
+    color: black;
+}
+#rbtmleft h3{
+    color: rgb(107 218 171);
+    font-size: 20px;
+    font-family: "Bebas Neue";
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+#rbtmleft:hover{
+    background-color: black;
+}
